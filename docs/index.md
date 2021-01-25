@@ -1,37 +1,81 @@
-## Welcome to GitHub Pages
+<html>
 
-You can use the [editor on GitHub](https://github.com/melekbattal/Rotting_System_tribute_page/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <title>
+        Rotting System
+    </title>
+  </head>
+  <body>
+    <div id=main>
+       
+        <h1 id="title"> <strong>Rotting System </strong></h1> </div>
+        <div>
+        <img src="C:\Users\sk\Documents\tributepage\images/logo.jpg" alt="Rotting System Band Logo" id="logo">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        </div>
+        <nav>
+            <ul>
+            <li><a href="https://open.spotify.com/artist/4wJBwdOPeTfmFGC2Ygm8xh?si=ql1U4QOhRLudwGFbMv2hRA"class="active">Home </a></li>  
+            <li><a href="https://www.facebook.com/rottingsystem" class="fa fa-facebook" target="_blank">Facebook </a></li>
+            <li><a href="https://www.instagram.com/rottingsystem/" class="fa fa-instagram" target="_blank">Instagram </a></li>   
+            <li> <a href="https://open.spotify.com/artist/4wJBwdOPeTfmFGC2Ygm8xh" class="fa fa-spotify" target="_blank">Spotify </a></li> 
+            <li><a href="https://rottingsystem.bandcamp.com/" class="fa fa-bandcamp" target="_blank">Bandcamp </a></li>    
+            </ul>
+        </nav>
+        <p id="img-caption"> <em>Rotting System is Crossover / Hardcore punk band, from Turkey </em></p>
+        <div id="img-div"> 
+     <div class="row">
+      <div class="column">
+        <img src="C:\Users\sk\Documents\tributepage\images/Rotting_system_first_album_cover.jpg" alt="Rotting System first album cover" id="image">
+        <img src="C:\Users\sk\Documents\tributepage\images/black_reflection_ep.jpg" alt="Rotting System Black Reflection EP" id="image">
+        <img src="C:\Users\sk\Documents\tributepage\images/stolen_future_album_cover.jpg" alt="Rotting System stolen Future album Cover" id="image">
+      </div>
+      <div class="column">
+          <img src="C:\Users\sk\Documents\tributepage\images/izmir_concert_fish_eye.jpg" alt="Rotting System concert in Izmir" id="image">
+          <img src="C:\Users\sk\Documents\tributepage\images/bass_player.jpg" alt="Rotting System bass player" id="image">
+          <img src="C:\Users\sk\Documents\tributepage\images/concert_with_audience.jpg" alt="Rotting System concert in Eskisehir" id="image">
+          <img src="C:\Users\sk\Documents\tributepage\images/izmir_concert.jpg" alt="Rotting System concert in Izmir" id="image">
+       </div> 
+      
+      <div class="column">
+        <img src="C:\Users\sk\Documents\tributepage\images/yigit_sinan.jpg" alt="Rotting System guest " id="image">
+        <img src="C:\Users\sk\Documents\tributepage\images/drummer.jpg" alt="Rotting System's drummer" id="image">
+        <img src="C:\Users\sk\Documents\tributepage\images/teamö.jpg" alt="Rotting System All Team" id="image">
+        <img src="C:\Users\sk\Documents\tributepage\images/vocal_blackwhite.jpg" alt="Rotting System's Vocal" id="image">
+        
+      </div>
+     </div>
+    
+     
+    </div>
+    
+    
+      
+     <div id="tribute_info">
+        <p>
+        This system was a spreading disease and still it's spreading <br>
+        Monarchies became repuclics to trick the unfair history <br>
+        Voting does exist for society to deceive themselves<br>
+        Picture seems good but reality is blurred<br>
+        
+        Presidents hide the shames and lies behind their smiles<br>
+        World is painted by weapons, bosses keep on earning more<br>
+        Servants torture and kill to protect the system<br>
+        Rewards are fascism, money and blood<br>
+        
+        Exploit the worker, let capital enrich!<br>
+        Arrest the communist, all people are bewitched!<br>
+        Control with truncheons, judged by handcuffs!<br>
+        This is fucking democracy, capitalist democracy!<br>
+        
+        A worker has to die under mine to keep alive his family<br>
+        A child has to beg for change to eat some food<br>
+        A woman was killed by a man and man talks about women's rights<br>
+        Liberals throw soil to grave to bury us all alive<br>
+    </p></div>
+    <div> 
+        <a href="https://rottingsystem.bandcamp.com/" target="_blank" id="tribute_link">Listen or Buy Rotting System's Digital Album here
+        </a></div>
+    </body>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/melekbattal/Rotting_System_tribute_page/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
