@@ -74,13 +74,15 @@ body {
    }
    nav {
        width:100%;
+       height: auto;
        background:transparent;
        overflow: hidden;
       
        display: flex;
        justify-content: flex-start;
        max-width: 100%;
-       height: auto;
+       text-align:center;
+       
      
    
    }
