@@ -1,37 +1,221 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="tr">
+<html>
+<head>
+    <style>
+body {
+ background-color:lightgray;
+    }
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 25%;
+  justify-content: center;
+  max-width: 25%;
+  padding: 0 4px;
+}
 
-You can use the [editor on GitHub](https://github.com/melekbattal/Rotting_System_tribute_page/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+#title {
+    display: flex;
+    justify-content: center;
+}
+#tribute_info {
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#img-caption {
+    display: flex;
+    justify-content: space-evenly;
+    background-position: center;
+    text-align: center;
 
-# Header 1
-## Header 2
-### Header 3
+}
+#logo {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+      
+   
 
-- Bulleted
-- List
+}
+#tribute_link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:brown;
+    font-weight: bold;
 
-1. Numbered
-2. List
+}
+nav {
+    width:100%;
+    background:transparent;
+    overflow: hidden;
+   
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+    height: auto;
+  
 
-**Bold** and _Italic_ and `Code` text
+}
 
-[Link](url) and ![Image](src)
-```
+nav li{
+    
+    margin: 0 8px;
+    padding-top: 1px;
+    max-width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    
+    
+    
+}
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+ul {
+  list-style-type: none;
+  margin: 0 0 0 150px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+  
+}
 
-### Jekyll Themes
+li {
+  float:left;
+  
+}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/melekbattal/Rotting_System_tribute_page/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration:none;
+}
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+li a:hover {
+  background-color: #111111;
+}
+#img-caption {
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+ 
+     
+     </style>
+     </head>
+    <title>
+        Rotting System
+    </title>
+  <body>
+    <div id=main>
+       
+        <h1 id="title"> <strong>Rotting System </strong></h1> </div>
+        <div>
+        <img src="C:\Users\sk\Desktop\TRIBUTEPAGE\images/logo.jpg" alt="Rotting System Band Logo" id="logo">
+
+        </div>
+        <nav>
+            <ul>
+            <li><a href=""class="active">Home </a></li>  
+            <li><a href="https://www.facebook.com/rottingsystem"class="fa fa-facebook" target="_blank">Facebook </a></li>
+            <li><a href="https://www.instagram.com/rottingsystem/"class="fa fa-instagram" target="_blank">Instagram </a></li>   
+            <li> <a href="https://open.spotify.com/artist/4wJBwdOPeTfmFGC2Ygm8xh"class="fa fa-spotify" target="_blank">Spotify </a></li> 
+            <li><a href="https://rottingsystem.bandcamp.com/"class="fa fa-bandcamp"target="_blank">Bandcamp </a></li>    
+            </ul>
+        </nav>
+        <p id="img-caption"> <em>Rotting System is Crossover / Hardcore punk band, from Turkey </em></p>
+        <div id="img-div"> 
+     <div class="row">
+      <div class="column">
+        <img src="C:\Users\sk\Documents\tributepage\images/Rotting_system_first_album_cover.jpg" alt="Rotting System first album cover" id="image">
+        <img src="C:\Users\sk\Documents\tributepage\images/black_reflection_ep.jpg" alt="Rotting System Black Reflection EP" id="image">
+        <img src="C:\Users\sk\Documents\tributepage\images/stolen_future_album_cover.jpg" alt="Rotting System stolen Future album Cover" id="image">
+      </div>
+      <div class="column">
+          <img src="C:\Users\sk\Documents\tributepage\images/izmir_concert_fish_eye.jpg" alt="Rotting System concert in Izmir" id="image">
+          <img src="C:\Users\sk\Documents\tributepage\images/bass_player.jpg" alt="Rotting System bass player" id="image">
+          <img src="C:\Users\sk\Documents\tributepage\images/concert_with_audience.jpg" alt="Rotting System concert in Eskisehir" id="image">
+          <img src="C:\Users\sk\Documents\tributepage\images/izmir_concert.jpg" alt="Rotting System concert in Izmir" id="image">
+       </div> 
+      
+      <div class="column">
+        <img src="C:\Users\sk\Documents\tributepage\images/yigit_sinan.jpg" alt="Rotting System guest " id="image">
+        <img src="C:\Users\sk\Documents\tributepage\images/drummer.jpg" alt="Rotting System's drummer" id="image">
+        <img src="C:\Users\sk\Documents\tributepage\images/teamö.jpg" alt="Rotting System All Team" id="image">
+        <img src="C:\Users\sk\Documents\tributepage\images/vocal_blackwhite.jpg" alt="Rotting System's Vocal" id="image">
+        
+      </div>
+     </div>
+    
+     
+    </div>
+    
+    
+      
+     <div id="tribute_info">
+        <p>
+        This system was a spreading disease and still it's spreading <br>
+        Monarchies became repuclics to trick the unfair history <br>
+        Voting does exist for society to deceive themselves<br>
+        Picture seems good but reality is blurred<br>
+        
+        Presidents hide the shames and lies behind their smiles<br>
+        World is painted by weapons, bosses keep on earning more<br>
+        Servants torture and kill to protect the system<br>
+        Rewards are fascism, money and blood<br>
+        
+        Exploit the worker, let capital enrich!<br>
+        Arrest the communist, all people are bewitched!<br>
+        Control with truncheons, judged by handcuffs!<br>
+        This is fucking democracy, capitalist democracy!<br>
+        
+        A worker has to die under mine to keep alive his family<br>
+        A child has to beg for change to eat some food<br>
+        A woman was killed by a man and man talks about women's rights<br>
+        Liberals throw soil to grave to bury us all alive<br>
+    </p></div>
+    <div> 
+        <a href="https://rottingsystem.bandcamp.com/" target="_blank" id="tribute_link">Listen or Buy Rotting System's Digital Album here
+        </a></div>
+    </body>
+
+</html>
