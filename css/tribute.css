@@ -62,6 +62,12 @@ body {
        align-items: center;
        flex-wrap: wrap;
        
+   #image {
+     display: block;
+     max-width: 100%;
+     height: auto;
+}
+       
          
       
    
