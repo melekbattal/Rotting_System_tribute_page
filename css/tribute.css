@@ -39,7 +39,7 @@ body {
        display: flex;
        justify-content: center;
    }
-   #tribute_info {
+   #tribute-info {
        font-size: 20px;
        font-family:Arial, Helvetica, sans-serif;
        display: flex;
@@ -66,7 +66,7 @@ body {
       
    
    }
-   #tribute_link {
+   #tribute-link {
        display: flex;
        justify-content: center;
        text-align: center;
